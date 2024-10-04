@@ -15,9 +15,9 @@ from datetime import datetime
 import pandas as pd
 
 # definição da lista de arquivos para leitura
-caminho_lista = "C:\\treinamento\\Projeto-Revenda\\arquivos"
+caminho_lista = "caminho_lista_arquivos_aqui"
 # definição do caminho dos dados em csv
-caminho_csvs = "C:\\treinamento\\projetos\\projeto-pentaho-engdados1\\dados\\ext"
+caminho_csvs = "caminho_dados_aqui"
 
 # metodo de extração e carga no datalake, atualmente sendo usado no mysql
 def extracao_e_carga(lista, caminho):
